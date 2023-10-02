@@ -1,0 +1,51 @@
+/* ProductListingForm.css */
+.product-listing-form {
+    
+    max-width: 400px;
+    margin: 2em auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: black; /* Text color */
+    transition: background-color 0.3s ease, padding 0.3s ease;
+    border-radius: 15px;
+  background: #fff;
+  background: #ffffff;
+  box-shadow:  20px 20px 60px #8a8a8a,
+               -20px -20px 60px #ffffff;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .btn{
+    margin-left: 8em;
+    border-radius: 10px;
+    padding: 0.8em;
+    background: #fff;
+    background: #ffffff;
+    box-shadow:  20px 20px 60px #8a8a8a,
+                 -20px -20px 60px #ffffff;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+  

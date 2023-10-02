@@ -1,0 +1,102 @@
+/* Navbar container */
+.navbar {
+  align-self: center;
+  width: 80em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin-top: 2.5em;
+  margin-left: 15vw;
+  background-color: #333; /* Change to your desired background color */
+  color: white; /* Text color */
+  transition: background-color 0.3s ease, padding 0.3s ease;
+  border-radius: 15px;
+background: #fff;
+background: #ffffff;
+box-shadow:  20px 20px 60px #8a8a8a,
+             -20px -20px 60px #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+.logout{
+  color: #000;
+}
+p{
+  color: #000;
+}
+.starting {
+   
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+/* Navbar logo */
+.navbar__logo img {
+  max-height: 40px;
+}
+
+/* Navbar links */
+.navbar__links a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+/* Navbar user section */
+.navbar__user {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__userAvatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.navbar__userOptions {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #333; /* Change to your desired background color */
+  border: 1px solid #555; /* Add a border for separation */
+  padding: 10px;
+  z-index: 1;
+}
+
+/* Show user options on hover */
+.navbar:hover .navbar__userOptions {
+  display: flex;
+}
+
+/* Sticky navbar */
+.navbar.sticky {
+  position: fixed;
+  align-self: center;
+  width: 80em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin-top: 2.5em;
+  margin-left: 15vw;
+  background-color: #333; /* Change to your desired background color */
+  color: white; /* Text color */
+  transition: background-color 0.3s ease, padding 0.3s ease;
+  border-radius: 15px;
+background: #fff;
+background: #ffffff;
+box-shadow:  20px 20px 60px #8a8a8a,
+             -20px -20px 60px #ffffff;
+}
